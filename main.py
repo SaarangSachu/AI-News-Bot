@@ -71,7 +71,7 @@ def summarize_news(news_list):
         prompt = (
             f"Here are the latest AI news headlines:\n{articles_text}\n\n"
             "Please select the top 3 most significant stories.\n"
-            "Summarize them into 3 short with date and time, engaging paragraph suitable for a Telegram channel update.\n"
+            "Summarize them into 3 short paragraph with date and time, engaging paragraph suitable for a Telegram channel update.\n"
             "Use fun emojis (🤖, 🚀, 🧠, etc.) to make it lively.\n"
             "Start with a catchy headline.\n"
             "At the end, list the links to the 3 selected stories in a clean format like: '🔗 [Title](Link)'."
